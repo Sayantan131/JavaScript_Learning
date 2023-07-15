@@ -24,9 +24,9 @@ var str2 = "This is also a string";
 
 // objects
 var marks = {
-    ravi:34,
-    subham:78,
-    harry:99.997
+    ravi: 34,
+    subham: 78,
+    harry: 99.997
 }
 // console.log(marks);
 
@@ -46,7 +46,7 @@ var n = null;
 2.Reference data types: Arrays & object
 */
 
-var arr = [1,2,3,"bablu",4,5]
+var arr = [1, 2, 3, "bablu", 4, 5]
 
 
 //Operators in JavaScript
@@ -89,11 +89,11 @@ var y = 56;
 // console.log(!true);
 
 // function in javascript
-function avg(a,b){
-    return(a+b)/2;
+function avg(a, b) {
+    return (a + b) / 2;
 }
-c1 = avg(4,6);
-c2 = avg(14,16);
+c1 = avg(4, 6);
+c2 = avg(14, 16);
 // console.log(c1,c2);
 
 // conditionals in JavaScript
@@ -131,7 +131,7 @@ else{
 console.log("End of ladder");
 */
 
-var arr=[1,2,3,4,5,6,8,7.7,9,0,6.7];
+var arr = [1, 2, 3, 4, 5, 6, 8, 7.7, 9, 0, 6.7];
 // console.log(arr);
 // for(var i = 0;i<arr.length;i++){
 //     console.log(arr[i])
@@ -141,7 +141,7 @@ var arr=[1,2,3,4,5,6,8,7.7,9,0,6.7];
 //     console.log(element)
 // })
 //while loop
- let j = 0;
+let j = 0;
 //  while(j<arr.length){
 //     console.log(arr[j]);
 //     j++;
@@ -171,6 +171,29 @@ var arr=[1,2,3,4,5,6,8,7.7,9,0,6.7];
 
 // }
 
+let myArr = ["Fan", "Camera", 34, null, true];
+
+//Array Methods
+// console.log(myArr.length);
+// myArr.pop();
+// myArr.push("Sayantan");
+// myArr.shift();
+
+// let newlwn = myArr.unshift("Sayantan");
+// console.log("newlen");
+// console.log(myArr);
+
+// String Methods in Javascript
+
+let mylovestring = "Sayantan is a  good boy good";
+// console.log(mylovestring.length);
+
+// console.log(mylovestring.indexOf("good"));
+// console.log(mylovestring.lastIndexOf("good"));
+// console.log(mylovestring.slice(0,3));
+
+// d=mylovestring.replace("Sayantan","Harry");
+// console.log(d,mylovestring);
 
 
 
