@@ -5,12 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Tutorial</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            border: 2px solid blue;
+            margin: 3px 0;
+            background-color: cyan;
+            padding: 9px;
+        }
+        .bg-primary{
+            background-color: blueviolet;
+
+        }
+        .text-success{
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Welcome to my javascript Tutorial</h1>
     <div id="firstcontainer" class="container">
-        <button id="click">Click Me</button>
+        <button id="click" onclick="clicked()">Click Me</button>
+        <p>This is under text success</p>
     </div>
     <div class="container">
         <p>This is a paragraph</p>
